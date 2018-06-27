@@ -6,6 +6,7 @@
         <activity android:name=".MainNewActivity">
             <intent-filter>
                 <action android:name="com.example.muheda.mynewlibrary.MainNewActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
     </application>
