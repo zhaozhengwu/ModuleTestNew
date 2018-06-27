@@ -3,7 +3,11 @@
     package="com.example.muheda.mynewlibrary">
 
     <application>
-        <activity android:name=".MainNewActivity"></activity>
+        <activity android:name=".MainNewActivity">
+            <intent-filter>
+                <action android:name="com.example.muheda.mynewlibrary.MainNewActivity"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
